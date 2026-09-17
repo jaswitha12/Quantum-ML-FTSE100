@@ -1,10 +1,10 @@
 # Quantum ML for FTSE 100 Market Direction Prediction
 
-A Quantum Machine Learning project that uses Variational Quantum Circuits (VQC) to predict the direction of the FTSE 100 stock market index.
+A hybrid quantum–classical machine learning project that uses Variational Quantum Circuits (VQC) to classify the directional movement of the FTSE 100 stock market index.
 
 ## Project Overview
 
-This project explores quantum machine learning for financial market direction prediction. It uses historical and live market data, feature preprocessing, and Variational Quantum Circuits to classify market movements.
+This project explores Quantum Machine Learning for financial market direction prediction using historical FTSE 100 market data. It includes a VQC model, classical machine learning comparison, and LSTM/BiLSTM comparison experiments.
 
 ## Technologies Used
 
@@ -12,22 +12,26 @@ This project explores quantum machine learning for financial market direction pr
 * Qiskit
 * Variational Quantum Circuits (VQC)
 * Quantum Machine Learning
-* Machine Learning
+* Classical Machine Learning
+* LSTM and BiLSTM
 * Pandas and NumPy
 * Scikit-learn
+* Matplotlib
 
 ## Project Workflow
 
-1. Collect FTSE 100 market data.
-2. Preprocess and engineer features.
-3. Train the Variational Quantum Circuit model.
-4. Predict market direction.
-5. Analyze and compare model performance.
+1. Collect and preprocess FTSE 100 market data.
+2. Perform feature engineering and dimensionality reduction.
+3. Train the VQC model.
+4. Compare quantum and classical machine learning approaches.
+5. Analyze model performance.
 
 ## Files
 
 * `VQC_for_FTSE_100.ipynb` — Main VQC implementation.
+* `Classical_ML_for_FTSE.ipynb` — Classical ML comparison.
+* `LSTM_BILSTM_Comparision_Quantum.ipynb` — LSTM, BiLSTM, and quantum ML comparison.
 
 ## Disclaimer
 
-This project is for educational and research purposes. It is not financial advice.
+This project is intended for educational and research purposes only. It is not financial advice, and model predictions do not guarantee future market performance.
